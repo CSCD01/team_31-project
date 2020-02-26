@@ -33,22 +33,11 @@ fig, axs = plt.subplots(figsize=(10, 6), nrows=2, ncols=1)
 axs[0].plot(dates, cases)
 
 # format ticks
-# axs[0].xaxis.set_major_locator(days)
-# axs[0].xaxis.set_major_formatter(days_fmt)
 axs[0].xaxis.set_major_locator(date_locator)
 axs[0].xaxis.set_major_formatter(cncs_fmt)
 
-# round to nearest days
-# datemin = np.datetime64(dates[0], 'D')
-# datemax = np.datetime64(dates[-1], 'D') + np.timedelta64(1, 'D')
-# axs[0].set_xlim(datemin, datemax)
-
 # set labels
 axs[0].set(ylabel='Number of New Cases', title='Reported Cases of Coronavirus Over Time')
-
-# rotating x-axis labels
-# labels = axs[0].get_xticklabels()
-# plt.setp(labels, rotation=45, horizontalalignment='right')
 
 # plot second axes
 axs[1].bar(dates, deltas)
