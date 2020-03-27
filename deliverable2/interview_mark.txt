@@ -1,0 +1,38 @@
+CSC D01 ¨C Deliverable 2 Interview Record
+
+1. Summarize which bugs the team worked on, including: bugs fixed, status of any PRs, and bugs that were dropped or not completed.
+
+1/1
+
+
+2. Demo the first bug fix they worked on and point out who worked with them for this fix.
+
+2/2
+
+3. Show where the first bug was and to point to the solution. 
+
+0.5/1
+
+Some member seem not very familar with the solution.
+
+4. Explain how testing works in the project of their choice and how their team went about checking, among other things, that their bugs do not break existing functionality.
+
+2/2
+
+5.	 (2 marks) Ask for a (different) volunteer to demo the second bug fix they worked on and point out who worked with them for this fix.
+Notes:
+
+2/2
+
+
+6.Detailed explanation of the software process they followed while working on this deliverable.
+
+2/2
+
+
+7. (bonus) Finally, explain the team's idea for a feature they will implement for D3.
+
+1/1
+
+Total:    10.5/ 10
+
